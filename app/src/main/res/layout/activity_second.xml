@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvHasilPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan akan muncul di sini"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etBalasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ketik balasan untuk Halaman 1..."
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnBalas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim Balasan dan Tutup"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
